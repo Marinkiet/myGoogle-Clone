@@ -19,5 +19,14 @@
 
 }
 .home_header a:hover{
-    text-decoration: underline;
+    text-decoration: underline;/*underline links on hover*/
+}
+.home_headerRight{
+    display: flex; /*takes avatar icon to right*/
+    align-items: center;
+    min-width: 13vw;/*view width*/
+    justify-content: space-between;
+}
+.home_headerRight > .MuiSvgIcon-root{
+    margin-right: 20px; /*create margin around icons and links*/
 }
