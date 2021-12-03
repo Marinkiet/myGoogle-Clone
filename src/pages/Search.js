@@ -7,12 +7,16 @@ import {Button} from "@material-ui/core"
 function Search() {
 //keep track of seached input
 //use state hook
-const [input,setInput] = useState("");
 
-    const search = e =>{
+const [input,setInput] = useState('');
+   
+    console.log("you hit search")
+    const search = (e) =>{
         e.preventDefault();
-    }
-
+    
+    
+  
+    };
 
     return (
         <div className="search">
